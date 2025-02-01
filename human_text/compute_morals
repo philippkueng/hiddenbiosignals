@@ -202,7 +202,8 @@ def export_predictions(model, data_loader, input_texts, auxiliary_features, orig
 
 def main():
     # Configuration
-    file_path = 'updated_aggregated_body_aug_anno_moral.xlsx'    # path name to excel file with moral value labels and text
+    file_path = 'updated_aggregated_body_aug_anno_moral.xlsx'    
+    # path name to excel file with moral value labels and text
     # user_id	mail_user	age_user	gender_user	harm_care_score_moral	fairness_reciprocity_score_moral	in_group_loyality_score_moral	authority_respect_score_moral	purity_sanctity_score_moral	body	is_augmented	Text	num_nouns	num_verbs	num_adjectives	num_adverbs	first_person_pronoun_score	second_person_pronoun_score	third_person_pronoun_score	sentiment_score	sentiment_label
     # 2044	user@mail.com		0	15	18	6	12	7	text	15	4	2	2	0	0	0	-0.966681838	negative
   
