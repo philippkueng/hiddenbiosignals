@@ -1,3 +1,5 @@
+# training a model using pre-labeled images of horses showing the emotions rage/fear/care
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
