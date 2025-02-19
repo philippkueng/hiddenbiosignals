@@ -1,4 +1,4 @@
-# computing emotions from text using a prelabeled dataset
+# computing emotions from text using a prelabeled dataset with a pretrained model from Huggingface
 
 import pandas as pd
 import torch
