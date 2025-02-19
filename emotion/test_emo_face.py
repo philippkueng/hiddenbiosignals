@@ -1,3 +1,5 @@
+# testing the face emotion recognition model with some face pictures
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
