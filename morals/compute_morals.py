@@ -1,3 +1,6 @@
+#computing Morals using the (Haidt) Moral Values framework from a labeled text file
+# the text has been previously annotated with the LIWC pronouns and synthetic data has been additionally computed (augmented)
+
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
