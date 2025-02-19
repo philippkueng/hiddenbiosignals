@@ -1,3 +1,5 @@
+# computing emotions from text using a prelabeled dataset
+
 import pandas as pd
 import torch
 from transformers import pipeline
