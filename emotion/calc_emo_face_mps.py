@@ -1,3 +1,5 @@
+#training a model to predict emotions from facial pictures using the FER-2013 dataset labeled with the 6 Ekmann emotions plus neutral
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
