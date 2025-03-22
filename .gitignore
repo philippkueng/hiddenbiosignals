@@ -1,0 +1,8 @@
+plant_spectrograms/venv
+plant_spectrograms/venv_3_11
+plant_spectrograms/friday_files
+plant_spectrograms/emotion_spectrograms*
+plant_spectrograms/*.keras
+plant_spectrograms/*.npy
+plant_spectrograms/*.png
+

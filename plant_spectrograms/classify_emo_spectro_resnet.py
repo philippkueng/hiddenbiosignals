@@ -177,7 +177,7 @@ def filter_classes(X, y_onehot, min_samples_per_class):
 
 
 
-def preprocess_data(X, y_onehot, min_samples_per_class=70):
+def preprocess_data(X, y_onehot, min_samples_per_class=69):
     """
     Preprocess and balance the dataset, ensuring stratification is possible.
     """
@@ -223,7 +223,7 @@ def train_emotion_classifier(spectrogram_dir, output_model_path, epochs=50):
     print("Shape of y_onehot:", y_onehot.shape)
     
     # Preprocess and retrieve valid classes
-    X_train, X_val, X_test, y_train, y_val, y_test, valid_classes = preprocess_data(X, y_onehot, min_samples_per_class=70)
+    X_train, X_val, X_test, y_train, y_val, y_test, valid_classes = preprocess_data(X, y_onehot, min_samples_per_class=69)
 
     print("Training set class distribution:", Counter(np.argmax(y_train, axis=1)))
     print("Validation set class distribution:", Counter(np.argmax(y_val, axis=1)))
